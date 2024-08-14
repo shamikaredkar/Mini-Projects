@@ -11,8 +11,8 @@ function App() {
     <>
       <h1>Mastering React Hooks</h1>
       {/* <Counter /> */}
-      {/* <Form /> */}
-      <Toggle />
+      <Form />
+      {/* <Toggle /> */}
     </>
   );
 }
