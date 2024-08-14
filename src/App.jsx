@@ -6,6 +6,7 @@ import Counter from "./mini-projects/Counter";
 import Form from "./mini-projects/Form";
 import Toggle from "./mini-projects/Toggle";
 import Visibility from "./mini-projects/Visibility";
+import TodoList from "./mini-projects/TodoList";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       {/* <Counter /> */}
       {/* <Form /> */}
       {/* <Toggle /> */}
-      <Visibility />
+      {/* <Visibility /> */}
+      <TodoList />
     </>
   );
 }
