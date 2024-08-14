@@ -1,12 +1,14 @@
 import React, { useState } from "react";
+import "./Counter.css";
 
-export default function StopWatch() {
+export default function Counter() {
   const [number, setNumber] = useState(0);
   return (
     <div>
-      <h1>Project 1: Counter</h1>
+      <h1>Simple Counter</h1>
       <h3>{number}</h3>
       <button
+        id='increment'
         onClick={() => {
           setNumber(number + 1);
         }}
@@ -14,6 +16,7 @@ export default function StopWatch() {
         Increment
       </button>
       <button
+        id='decrement'
         onClick={() => {
           setNumber(number - 1);
         }}
@@ -22,6 +25,7 @@ export default function StopWatch() {
       </button>
       {number !== 0 && (
         <button
+          id='reset'
           onClick={() => {
             setNumber(0);
           }}
