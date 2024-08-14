@@ -5,14 +5,16 @@ import "./App.css";
 import Counter from "./mini-projects/Counter";
 import Form from "./mini-projects/Form";
 import Toggle from "./mini-projects/Toggle";
+import Visibility from "./mini-projects/Visibility";
 
 function App() {
   return (
     <>
       <h1>Mastering React Hooks</h1>
       {/* <Counter /> */}
-      <Form />
+      {/* <Form /> */}
       {/* <Toggle /> */}
+      <Visibility />
     </>
   );
 }
