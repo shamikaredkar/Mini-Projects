@@ -7,6 +7,7 @@ import Form from "./mini-projects/Form";
 import Toggle from "./mini-projects/Toggle";
 import Visibility from "./mini-projects/Visibility";
 import TodoList from "./mini-projects/TodoList";
+import UseEffect from "./mini-projects/UseEffect";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <Form /> */}
       {/* <Toggle /> */}
       {/* <Visibility /> */}
-      <TodoList />
+      {/* <TodoList /> */}
+      <UseEffect />
     </>
   );
 }
