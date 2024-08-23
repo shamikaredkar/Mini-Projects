@@ -18,7 +18,8 @@ export default function UseEffect() {
   //If teh value of count changes for any reason, do the side code
   useEffect(() => {
     document.title = `Count: ${count}`;
-  })[count];
+  }),
+    [count];
 
   function handleIncrement() {
     setCount((c) => c + 1);
